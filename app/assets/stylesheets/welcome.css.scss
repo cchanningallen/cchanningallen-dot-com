@@ -1,0 +1,26 @@
+body {
+  background: url(asset-path('welcome_bg.jpg', image)) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
+.header-wrapper {
+  margin-top: 100px;
+
+  h1 {
+    font-size: 55px;
+    font-weight: 100;
+    color: #FFEDD9;
+  }
+}
+
+.content-wrapper {
+  margin-top: 50px;
+
+  h3 {
+    color: #7EFF89;
+    font-weight: 300;
+  }
+}  

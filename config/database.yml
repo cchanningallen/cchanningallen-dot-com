@@ -1,0 +1,27 @@
+development:
+  host: 172.16.10.10
+  port: 5432
+  adapter: postgresql
+  encoding: unicode
+  database: cchanningallen_dot_com_development
+  pool: 5
+  username: rails3_application_dev
+  password: dolores123
+
+test:
+  host: 172.16.10.10
+  port: 5432
+  adapter: postgresql
+  encoding: unicode
+  database: cchanningallen_dot_com_test
+  pool: 5
+  username: rails3_application_dev
+  password: dolores123
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: cchanningallen_dot_com
+  pool: 5
+  username: cchanningallen_dot_com
+  password:
