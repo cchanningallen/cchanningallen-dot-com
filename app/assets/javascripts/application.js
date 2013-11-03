@@ -19,7 +19,5 @@
 //= require_self
 //= require cchanningallen_dot_com
 
-// for more details see: http://emberjs.com/guides/application/
 CchanningallenDotCom = Ember.Application.create();
 
-//= require_tree .
