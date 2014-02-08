@@ -1,0 +1,99 @@
+$yellow: #fcfc55;
+$black: black;
+
+#crossfit-app-frame {
+
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0px;
+  left:0px;  
+  background: $black; /* Old browsers */
+  background: -moz-linear-gradient(left, $black 1%, $black 49%, $yellow 49%, $yellow 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%,$black), color-stop(100%,$yellow)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, $black 1%, $black 49%, $yellow 49%, $yellow 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, $black 1%, $black 49%, $yellow 49%, $yellow 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, $black 1%, $black 49%, $yellow 49%, $yellow 100%); /* IE10+ */
+  background: linear-gradient(to right, $black 1%, $black 49%, $yellow 49%, $yellow 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$black', endColorstr='$yellow',GradientType=1 ); /* IE6-9 */
+  
+  #crossfit-app-header {
+
+
+    .crossfit-app-header-main-text {
+      font-size: 40px;
+      margin: 0;
+  
+      .crossfit-app-header-left-panel {
+        font-weight: 300;
+        background-color: $yellow;
+        color: $black;
+      }
+
+      .crossfit-app-header-right-panel {
+        font-weight: 700;
+        background-color: $black;
+        color: $yellow;
+      }
+    }
+
+    .crossfit-app-header-sub-text {
+      padding: 2px;
+      font-weight: 300;
+      font-size: 20px;   
+      background-color: darkgray;
+      color: whitesmoke;
+    }
+
+    .crossfit-app-content-left-panel {
+      background-color: lighten($black, 20%);
+      color: lighten($yellow, 20%);
+    }
+
+    .crossfit-app-content-right-panel {
+      background-color: lighten($yellow, 20%);
+      color: lighten($black, 20%);
+    }
+  } 
+
+  #crossfit-main-img-section {
+    margin-top: 40px;
+
+    .crossfit-main-img-frame {
+      height: 500px;
+      background-color: whitesmoke;
+    }    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

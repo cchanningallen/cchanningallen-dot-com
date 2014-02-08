@@ -18,6 +18,5 @@
 //= require ember-data
 //= require_self
 //= require cchanningallen_dot_com
-
 CchanningallenDotCom = Ember.Application.create();
 
