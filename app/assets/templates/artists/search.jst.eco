@@ -1,0 +1,11 @@
+<div class="artists-container">
+  <h2 class="text-center">Artist Search</h2>
+
+  <form class="form-inline" role="form">
+    <div class="form-group">
+      <label class="sr-only" for="searchArtistName">Artist Name</label>
+      <input class="form-control" id="searchArtistName" placeholder="Enter artist name">
+    </div>
+  </form>
+  <a href="#find_artist" class="btn btn-default">Search</a>
+</div>

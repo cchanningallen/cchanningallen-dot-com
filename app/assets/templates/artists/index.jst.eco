@@ -1,0 +1,9 @@
+<div class="artists-container">
+  <h2 class="text-center">Artists</h2>
+
+  <ul class="list-unstyled">
+    <% for artist in @artists.models: %>
+      <li><h4><%= artist.get('name') %></h4></li>
+    <% end %>
+  </ul>
+</div>

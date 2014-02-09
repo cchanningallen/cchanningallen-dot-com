@@ -18,5 +18,14 @@
 //= require ember-data
 //= require_self
 //= require cchanningallen_dot_com
-CchanningallenDotCom = Ember.Application.create();
 
+//= require underscore
+//= require backbone
+//= require my_music_live
+//= require_tree ../templates
+//= require_tree ./models
+//= require_tree ./collections
+//= require_tree ./views
+//= require_tree ./routers
+
+// CchanningallenDotCom = Ember.Application.create();

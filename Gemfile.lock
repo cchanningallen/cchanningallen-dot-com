@@ -40,6 +40,11 @@ GEM
       activerecord (>= 3.0)
     arel (4.0.1)
     atomic (1.1.14)
+    backbone-on-rails (1.1.0.0)
+      eco
+      ejs
+      jquery-rails
+      rails (>= 3.1)
     barber (0.4.2)
       ember-source
       execjs
@@ -62,6 +67,7 @@ GEM
     coffee-script-source (1.6.3)
     crack (0.4.1)
       safe_yaml (~> 0.9.0)
+    decent_exposure (2.1.0)
     devise (3.1.1)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
@@ -69,6 +75,12 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.4)
+    eco (1.0.0)
+      coffee-script
+      eco-source
+      execjs
+    eco-source (1.1.0.rc.1)
+    ejs (1.1.1)
     ember-data-source (0.14)
       ember-source
     ember-rails (0.13.0)
@@ -201,9 +213,11 @@ PLATFORMS
 DEPENDENCIES
   amoeba
   anjlab-bootstrap-rails!
+  backbone-on-rails
   bcrypt-ruby (~> 3.0.0)
   capybara
   coffee-rails (~> 4.0.0)
+  decent_exposure
   devise
   ember-rails
   ember-source
