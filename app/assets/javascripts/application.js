@@ -16,12 +16,14 @@
 //= require handlebars
 //= require ember
 //= require ember-data
-//= require_self
-//= require cchanningallen_dot_com
 
 //= require underscore
 //= require backbone
 //= require my_music_live
+//= require crossfit
+//= require cchanningallen_dot_com
+//= require_self
+
 //= require_tree ../templates
 //= require_tree ./models
 //= require_tree ./collections

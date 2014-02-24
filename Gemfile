@@ -15,6 +15,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'backbone-on-rails'
 gem 'decent_exposure'
+gem 'httparty'
+gem 'acts-as-taggable-on'
 
 gem 'sinatra'
 gem 'devise'

@@ -1,11 +1,14 @@
 CchanningallenDotCom::Application.routes.draw do
 
+  devise_for :users
   get "mymusiclive" => "my_music_live#index"
   root 'welcome#index'
 
   scope "api" do
     scope "v1" do
-      resources :artists
+      resources :artists do
+        
+      end
     end
   end
 

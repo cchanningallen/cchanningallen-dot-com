@@ -19,6 +19,10 @@ class ArtistsController < ApplicationController
   def artist_search
   end
 
+  def recommended_events
+    respond_with json: BitApi.recommended_events(artist_params[:name])
+  end
+
   private
   def artist_params
     params.require(:artist).permit(:name)
